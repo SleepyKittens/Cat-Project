@@ -1,14 +1,14 @@
 class CatsController < ApplicationController
-  def new_cat
+  def new
     render 'cats/new_cat'
   end
 
-  def post_cat
+  def create
     Cat.create(name: params[:name], age: params[:age])
     render 'cats/post_cat'
   end
 
-  def get_cats
+  def index
     render 'cats/get_cats'
   end
 end
