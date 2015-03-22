@@ -1,0 +1,9 @@
+Here are some cat names of cats I know:
+
+<% Cat.all.each do |cat| %>
+  <div>
+    <%= cat.name %>
+  </div>
+<% end %>
+
+<a href='/new_cat'>Make a New Cat</a>

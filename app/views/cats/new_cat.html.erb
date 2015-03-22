@@ -1,0 +1,12 @@
+Please tell me your cat's name
+<%= form_tag('/cats', method: :post) do %>
+  <div>
+    Name:
+    <input name='name'></input>
+  </div>
+  <div>
+    Age:
+    <input name='age' type='number' min="0" step="1"></input>
+  </div>
+  <input type='submit'></input>
+<% end %>
