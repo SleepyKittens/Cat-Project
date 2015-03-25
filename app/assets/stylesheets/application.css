@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+.form-field label {
+  display: inline-block;
+  width: 150px;
+}
