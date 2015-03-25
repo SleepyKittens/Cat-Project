@@ -1,0 +1,25 @@
+.left-pane {
+  width: 300px; 
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+
+}
+
+
+.profilepic {
+  background-color: gray;
+  margin: 15px 50px 15px 50px;
+  width: 200px;
+  height: 200px;
+ 
+}
+
+.favouritething {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+  margin: 5px auto 5px auto;
+  text-align: center;
+  color: black;
+
+}

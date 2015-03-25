@@ -1,5 +1,31 @@
-Name: <%= @cat.name %>
-<div>Location: <%= @cat.location %></div>
-<div>Age: <%= @cat.age %></div>
-<div>Favourite Food: <%= @cat.favourite_food %></div>
-<div>Favourite Toy:<%= @cat.favourite_toy %></div>
+
+<div class='profile-container'>
+<div class='left-pane'>
+  <div class='profilepic'>
+  </div>
+  <div class='favouritething'>
+    <%= @cat.favourite_food %>
+  </div>
+  <div class='profilepic'>
+  </div>
+  <div class='favouritething'>
+    <%= @cat.favourite_toy %>
+  </div>
+</div>
+
+<div class ='right-pane'>
+  <div class='info'>
+    <div class='profilename'>
+      <%= @cat.name %>
+    </div>
+    <div class='profilelocation'>
+      <%= @cat.location %>
+    </div>
+    <div class='profileage'>
+      <%= pluralize(@cat.age, 'year') %> old
+    </div>
+  </div>
+  <div class='friends'>
+  </div>
+</div>
+</div>

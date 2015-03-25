@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
   <title>Nico's Cat Site</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <div class='littletitle'>
+      CAT FRIENDS
+    </div>
+    <nav>
+      <a class='showprofile'> PROFILE </a>
+      +
+      <a class='showbrowse'> BROWSE </a>
+      +
+      <a class='createnewcat'> ADD CAT FRIENDS</a>
+    </nav>
+  </header>
 
-<%= yield %>
+  <%= yield %>
 
 </body>
 </html>

@@ -1,0 +1,45 @@
+.right-pane {
+  padding-top: 70px;
+  -webkit-flex: 1;
+          flex: 1
+
+  
+
+
+}
+
+.info {
+  width: 100%;
+
+}
+
+
+.profilename {
+  font-size: 500%;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-color: black;
+
+}
+
+.profilelocation {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 125%;
+  color: black;
+  padding-top: 3px;
+
+}
+
+.profileage {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 125%;
+  color: black;
+
+}
+
+.friends {
+
+}

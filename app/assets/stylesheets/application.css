@@ -14,7 +14,19 @@
  *= require_self
  */
 
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
 .form-field label {
   display: inline-block;
   width: 150px;
+}
+
+.profile-container {
+  display: -webkit-flex;
+  display: flex;
+}
 }
