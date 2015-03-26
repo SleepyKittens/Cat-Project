@@ -2,7 +2,9 @@ Here are some cat names of cats I know:
 
 <% @cats.each do |cat| %>
   <div>
+   <a href='/cats/<%= cat.id %>'> 
     <%= cat.name %>
+  </a>
   </div>
 <% end %>
 
