@@ -1,0 +1,31 @@
+
+<div class='profile-container'>
+<div class='left-pane'>
+  <div class='profilepic'>
+  </div>
+  <div class='favouritething'>
+    <%= @friend.favourite_food %>
+  </div>
+  <div class='profilepic'>
+  </div>
+  <div class='favouritething'>
+    <%= @friend.favourite_toy %>
+  </div>
+</div>
+
+<div class ='right-pane'>
+  <div class='info'>
+    <div class='profilename'>
+      <%= @friend.name %>
+    </div>
+    <div class='profilelocation'>
+      <%= @friend.location %>
+    </div>
+    <div class='profileage'>
+      <%= pluralize(@friend.age, 'year') %> old
+    </div>
+  </div>
+  <div class='friends'>
+  </div>
+</div>
+</div>

@@ -1,0 +1,11 @@
+Here are some names of friends I know:
+
+<% @friends.each do |friend| %>
+  <div>
+   <a href='/friends/<%= friend.id %>'> 
+    <%= friend.name %>
+  </a>
+  </div>
+<% end %>
+
+<a href='/friends/new'>Make a New Friend</a>
